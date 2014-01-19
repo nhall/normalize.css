@@ -1,21 +1,12 @@
-# normalize.css v2
+# normalize.css
 
-Normalize.css is a customisable CSS file that makes browsers render all
-elements more consistently and in line with modern standards.
+This is a Sass port of the wonderful [Normalize.css] (http://necolas.github.io/normalize.css/) from Nicolas Gallagher.
 
-The project relies on researching the differences between default browser
-styles in order to precisely target only the styles that need or benefit from
-normalizing.
+	Normalize.css is a customizable CSS file that makes browsers render all elements more consistently and in line with modern standards.
+
+	The project relies on researching the differences between default browser styles in order to precisely target only the styles that need or benefit from normalizing.
 
 [Check out the demo](http://necolas.github.io/normalize.css/latest/test.html)
-
-## Install
-
-Download from the [project page](http://necolas.github.io/normalize.css/).
-
-Install with [Bower](http://bower.io/): `bower install --save normalize-css`
-
-Install with [Component(1)](http://component.io/): `component install necolas/normalize.css`
 
 ## What does it do?
 
@@ -27,10 +18,7 @@ Install with [Component(1)](http://component.io/): `component install necolas/no
 
 ## How to use it
 
-No other styles should come before Normalize.css.
-
-It is recommended that you include the `normalize.css` file as untouched
-library code.
+The Normalize.css has been repurposed as a Sass partial. No other styles should come before Normalize.css. That means `_normalize.scss` should be the first partial imported in your project.
 
 ## Browser support
 
@@ -39,14 +27,6 @@ library code.
 * Apple Safari 5+
 * Opera 12+
 * Internet Explorer 8+
-
-[Normalize.css v1 provides legacy browser
-support](https://github.com/necolas/normalize.css/tree/v1) (IE 6+, Safari 4+),
-but is no longer actively developed.
-
-## Contributing
-
-Please read the CONTRIBUTING.md
 
 ## Acknowledgements
 
