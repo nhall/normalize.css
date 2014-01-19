@@ -1,12 +1,14 @@
-# normalize.css
+# normalize.scss
 
-This is a Sass port of the wonderful [Normalize.css] (http://necolas.github.io/normalize.css/) from Nicolas Gallagher.
+A Sass port of the wonderful [Normalize.css] (http://necolas.github.io/normalize.css/) from Nicolas Gallagher and Jonathan Neal.
 
-	Normalize.css is a customizable CSS file that makes browsers render all elements more consistently and in line with modern standards.
+In thier own words:
 
-	The project relies on researching the differences between default browser styles in order to precisely target only the styles that need or benefit from normalizing.
+"Normalize.css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards."
 
-[Check out the demo](http://necolas.github.io/normalize.css/latest/test.html)
+"The project relies on researching the differences between default browser styles in order to precisely target only the styles that need or benefit from normalizing."
+
+Normalize.css is an alternative to the heavy handed approach of traditional CSS resets that remove **all** browser styles. For more information see Nicolas' [detailed article](http://nicolasgallagher.com/about-normalize-css/) and check out the [demo](http://necolas.github.io/normalize.css/latest/test.html).
 
 ## What does it do?
 
@@ -18,7 +20,7 @@ This is a Sass port of the wonderful [Normalize.css] (http://necolas.github.io/n
 
 ## How to use it
 
-The Normalize.css has been repurposed as a Sass partial. No other styles should come before Normalize.css. That means `_normalize.scss` should be the first partial imported in your project.
+Normalize.scss is a Sass partial. No other styles should come before Normalize.css. That means `_normalize.scss` should be the first partial imported in your project.
 
 ## Browser support
 
